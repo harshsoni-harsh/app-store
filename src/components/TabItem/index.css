@@ -1,0 +1,18 @@
+/* Write your CSS here */
+.tab-btn,
+.active-tab-btn {
+  border: none;
+  background: transparent;
+  padding: 10px 15px;
+  font-size: large;
+  font-weight: bold;
+  cursor: pointer;
+}
+.active-tab-btn {
+  border-bottom: 3px #2563eb solid;
+  color: #2563eb;
+}
+.tab-btn {
+  border-bottom: 3px #dfe2e5 solid;
+  color: #7b8794;
+}

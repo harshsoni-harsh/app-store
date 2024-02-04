@@ -1,0 +1,47 @@
+/* Write your CSS here */
+ul {
+  list-style: none;
+  padding: 0;
+}
+.body {
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  min-height: 100vh;
+  background: linear-gradient(#fff1eb, #ace0f9);
+  font-family: 'Bree Serif';
+}
+.heading {
+  color: #1e293b;
+  font-size: 50px;
+}
+input {
+  border: none;
+  background: transparent;
+  outline: none;
+  color: #1e293b;
+  font-weight: bold;
+  font-size: 15px;
+}
+.searchLogo {
+  width: 25px;
+}
+.inputDiv {
+  padding: 5px;
+  display: flex;
+  align-items: center;
+  border: 1px #7b8794 solid;
+  border-radius: 5px;
+}
+.tabsList {
+  display: flex;
+  text-decoration: underline;
+}
+.appsList {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  max-width: 900px;
+}
